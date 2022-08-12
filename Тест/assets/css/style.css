@@ -1,0 +1,147 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+h2 {
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 12px;
+    color: #000000;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    min-width: 550px;
+    max-height: 500px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    background: #ffffff no-repeat center url("assets/images/site-header.png");
+    background-size: cover;
+    text-align: center;
+}
+
+.header p {
+    color: #0ca6d1;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button a { 
+    font-size: 22px;
+    font-family: Montserrat;
+    background-color: #0ca6d1;
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*.navbar {
+    background-color: #0ca6d1;
+    min-width: 320px;
+    ;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}*/
+
+.navbar {
+    margin: 0;
+    list-style-type: none;
+    min-width: 550px;
+    text-align: center;
+    background-color: #0ca6d1;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+
+
+.products {
+    min-width: 550px;
+}
+
+.products p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Montserrat;
+    color: black;
+}
+
+.cost {
+    text-decoration: line-through;
+    text-align: center;
+}
+
+h3, h2, h4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footer {
+    margin-top: auto;
+    min-width: 550px;
+    height: 150px;
+    background: #0ca6d1;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Montserrat;
+    color: white;
+    text-decoration: none;
+}
+
+.footer a {
+    color: white
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #00abbf;
+    text-decoration: none;
+}
+
+.footer i {
+    font-size: 24px;
+}
